@@ -1,6 +1,5 @@
 import parser.*
 import interpreterProp.*
-
 object propLoc {
   sealed abstract class propLoc
   case class and(x: propLoc, y: propLoc) extends propLoc
